@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./list.css">
+    <script src="./list.js" defer></script>
+    <title>Grocery List</title>
+</head>
+<body>
+    <div class="container">
+        <form id="addlistform" class="formin">
+          <div class="head" id="head">
+            <h1>Add Grocery Items</h1>
+            <input type="text" id="input">
+            <br>
+            <input type="button" value="Add" id="submitadd">
+        </div>
+        </form>
+        
+        <form id="getlistform" class="formout">
+            
+            <h1>Grocery Items</h1>
+            <ul class="list" id="list"></ul>
+            <button class="clear" id="submitclear">Clear Items</button>
+       
+        </form>
+    </div>
+</body>
+</html>

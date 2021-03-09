@@ -1,0 +1,134 @@
+*
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:0;
+    margin:0;
+    color:black;
+}
+
+body
+{
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+}
+#addlistform
+{
+    background-color:skyblue;
+    padding:2%;
+    min-height: 25vh;
+    min-width: 45vw;
+    width: auto;
+    height: auto;
+    margin-top: 5vh;
+    border-radius: 10px;
+    border-color: black;
+}
+
+#getlistform
+{
+    background-color:powderblue;
+    padding:2%;
+    min-height: 15vh;
+    min-width: 45vw;
+    width: auto;
+    height: auto;
+    margin-top: 5vh;
+    border-radius: 10px;
+    border-color: black;
+}
+input[type=text]
+{
+    
+    display: block;
+    margin:auto;
+    width: 90%; 
+    border: 3px solid #f59494;
+    padding: 5px;
+    margin-top:6vh;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background:skyblue ;
+    outline: none;
+
+}
+
+
+input[type=button]
+{
+    text-align:center;
+    display: block;
+    margin:auto;
+    width: 80%; 
+    border: 1px solid #818181;
+    padding: 5px;
+    margin-top:2vh;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+.formin h1
+{
+    color:white;
+    text-align: center;
+}
+
+.formout h1
+{
+    color:rgb(24, 94, 223);
+    text-align: center;
+}
+li
+{
+    width:100%;
+    display:flex;
+    align-items: center;
+    padding:2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+li .buttons
+{
+    min-width: 100px;
+    margin-left: auto;
+    display: inline;
+    
+
+}
+li .buttons button
+{
+    background: none;
+    border: none;
+    min-width: 20px;
+    font-size: 2rem;
+    margin-right: 20px;
+}
+svg
+{
+    max-width: 25px;
+}
+button:hover svg path
+{
+    fill:black;
+}
+
+.remove svg path
+{
+    fill:red;
+}
+.clear
+{
+    text-align:center;
+    display: block;
+    margin:auto;
+    width: 80%; 
+    border: 1px solid #818181;
+    padding: 5px;
+    margin-top:2vh;
+    border-radius: 5px;
+    font-size: 15px;
+}
